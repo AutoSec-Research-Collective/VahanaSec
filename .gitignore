@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# Local databases and generated data
+*.sqlite
+*.sqlite3
+*.db
+logs/
+outputs/
+artifacts/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
